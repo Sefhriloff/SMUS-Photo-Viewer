@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMUS Photo Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Upload the Photo blob</h2>
+    <input id="fileInput" type="file" onchange="handleFile()"><br>
+
+    <div>
+        <label>
+            <input type="radio" name="preset" onchange="setTonePreset(0)" value="none" checked>
+            <span class="dark-mode-label">None</span>
+        </label>
+        <label>
+            <input type="radio" name="preset" onchange="setTonePreset(1)" value="sepia">
+            <span class="dark-mode-label">Sepia</span>
+        </label>
+        <label>
+            <input type="radio" name="preset" onchange="setTonePreset(2)" value="puomi">
+            <span class="dark-mode-label">Puomi</span>
+        </label>
+        <label>
+            <input type="radio" name="preset" onchange="showColorPicker(true)" value="custom">
+            <span class="dark-mode-label">Custom</span>
+        </label>
+    </div>
+
+    <div class="canvas-div">
+        <canvas id="stage" width="162" height="117"></canvas>
+        <div id="pickcolor" style="display: none;">
+            <input type="color" id="backColor" value="#FFCC66" onchange="setColor(true, this.value)" />
+            <br>
+            <input type="color" id="foreColor" value="#681F10" onchange="setColor(false, this.value)" />
+        </div>
+        <br>
+    </div>
+
+    <p id="checksum"></p>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
