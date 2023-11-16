@@ -4,7 +4,8 @@ This project allows users to upload greyscale image blobs, decoding and renderin
 This would not have been possible without the help of Ascii.
 
 ## Preview
-![image](https://github.com/Sefhriloff/SMUS-Photo-Viewer/assets/41347100/c10a6cfe-23f1-436b-90f0-2c4db5cd00cd)
+![image](https://github.com/Sefhriloff/SMUS-Photo-Viewer/assets/41347100/227127c1-5ef1-4fc9-ab8a-ed7eb9d588bb)
+
 
 ## Example of use
 [Puomi](https://puomi.tunk.org/?p=pg#666)
