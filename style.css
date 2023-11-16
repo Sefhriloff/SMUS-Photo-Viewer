@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #444, #222);
+}
+
+.canvas-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="color"] {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: #555;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box
+}
+
+.dark-mode-label {
+    display: inline-block;
+    background-color: #555;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked+.dark-mode-label {
+    background-color: #777;
+}
