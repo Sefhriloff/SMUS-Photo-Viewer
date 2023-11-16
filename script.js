@@ -147,6 +147,7 @@ function showColorPicker(isVisible) {
     if (isVisible) {
         backColor = document.getElementById("backColor").value;
         foreColor = document.getElementById("foreColor").value;
+        filter = true;
         updatePageColors();
         renderPhoto();
     }
