@@ -6,6 +6,8 @@ This would not have been possible without the help of Ascii.
 ## Preview
 ![image](https://github.com/Sefhriloff/SMUS-Photo-Viewer/assets/41347100/227127c1-5ef1-4fc9-ab8a-ed7eb9d588bb)
 
+## PHP Version
+The PHP version loads images directly from the database and renders them in greyscale.
 
 ## Example of use
 
